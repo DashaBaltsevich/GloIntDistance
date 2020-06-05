@@ -4,6 +4,7 @@
 
 .body {
     font-family: serif;
+    background: #F5F5F5;
 }
 .header {
     background: #0050B3;
@@ -114,4 +115,93 @@
     height: 16px;
     background: #003A8C;
     margin-right: 12px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.menu-sidebar {
+    max-width: 192px;
+    margin-top: 18px;
+    margin-right: 12px;
+}
+
+.menu-sidebar .user {
+    padding-left: 10px;
+}
+
+.menu-sidebar .user-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-sidebar .user-name {
+    color: #262626;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav-group {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #595959;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav-link.active {
+    background: #FFFFFF;
+    color: #262626;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+
+.nav-text {
+    margin-left: 8px;
+}
+
+.nav-title {
+    padding-left: 10px;
+    color: #262626;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.main-feed {
+    max-width: 588px;
+}
+
+.create-post {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.create-post-header {
+    background: #F5F5F5;
+}
+
+.create-post-title {
+    margin: 0;
 }
